@@ -112,8 +112,8 @@
           <br>
           <br>
           <div>
-            <label id="label_chat" for="radio_chat">chat <img src="/UI/icons/chat.png" alt=""></label>
-            <label  id="label_contacts" for="radio_contacts">contacts <img src="/UI/icons/contacts.png" alt=""></label>
+            <label id="label_chat" for="radio_chat">chat <img src="UI/icons/chat.png" alt=""></label>
+            <label id="label_contacts" for="radio_contacts">contacts <img src="UI/icons/contacts.png" alt=""></label>
             <label id="label_settings" for="radio_settings">settings <img src="UI/icons/settings.png" alt=""></label>
           </div>
         </div>
