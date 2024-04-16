@@ -1,8 +1,5 @@
 <?php
-//    define('DBUSER', "root");
-//    define('DBPASS', " ");
-//    define('DBNAME', "mychat_db");
-//    define('DBHOST', "Localhost");
+
 class Database
 {
  
@@ -18,9 +15,9 @@ class Database
    private function connect()
    {
     
-    $string = "mysql:host=localhost;dbname=mychat_db";
+    // $string = "mysql:host=localhost;dbname=mychat_db";
     
-        // $string="mysql:host=localhost;mychat_db";
+        $string="mysql:host=localhost;mychat_db";
         try
         {
             $connection = new PDO($string,DBUSER,DBPASS);
@@ -37,3 +34,9 @@ class Database
    }
 
 }
+
+?>
+
+
+
+

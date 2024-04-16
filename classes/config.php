@@ -4,8 +4,8 @@
 // define('DBNAME', "mychat_db");
 // define('DBHOST', "Localhost");
 define('DBUSER', "root");
-define('DBPASS', "jay");
+define('DBPASS', "");
 define('DBNAME', "mychat_db");
-define('DBHOST', "Localhost");
+define('DBHOST', "Localhost:3307");
 
 ?>
