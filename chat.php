@@ -6,6 +6,26 @@
   }
 ?>
 <?php include_once "header.php"; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    background-color: rgb(217, 216, 221);
+  }
+  .wrapper {
+    /* background-color: rgb(32, 44, 51); */
+    /* background-color: rgba(109, 106, 106, 0.51); */
+    /* background-color:#d1d7db; */
+    min-height: 700px;
+    min-width: 1500px;
+  }
+  </style>
 <body>
   <div class="wrapper" style="background-color: rgb(178, 166, 166);">
     <section class="chat-area">
@@ -41,5 +61,3 @@
 
 </body>
 </html>
-
-

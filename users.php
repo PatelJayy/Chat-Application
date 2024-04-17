@@ -7,9 +7,27 @@
 ?>
 <?php include_once "header.php"; ?>
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+</head>
+<style>
+  .wrapper {
+    background-color: rgb(217, 216, 221);
+    /* background-color:rgb(238, 238, 238); */
+    /* background-color:#d1d7db; */
+    min-height: 1500px;
+    min-width: 100%;
+    /* font-size:30px; */
+  }
+</style>
 <body>
   <div class="wrapper">
-    <section class="users" style="background-color:  #d1d7db;color: white;">
+    <section class="users" style="rgba(109, 106, 106, 0.51);">
       <header>
         <div class="content">
           <?php 
@@ -31,7 +49,7 @@
         <input type="text" placeholder="Enter name to search...">
         <button><i class="fas fa-search"></i></button>
       </div>
-      <div class="users-list">
+      <div class="users-list" >
   
       </div>
     </section>
@@ -40,5 +58,4 @@
   <script src="javascript/users.js"></script>
 
 </body>
-
 </html>
