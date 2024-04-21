@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `chatappv1`
+-- Database: `chatapp`
 --
 
 -- --------------------------------------------------------
@@ -36,8 +36,7 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `img` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL,
-  `code` mediumint(50) NOT NULL,
-  `otpstatus` text NOT NULL
+  `code` mediumint(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -94,7 +93,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `chatappv1`
+-- Database: `chatapp`
 --
 
 -- --------------------------------------------------------

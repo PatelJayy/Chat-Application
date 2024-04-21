@@ -43,7 +43,7 @@
         </div>
       </form>
       <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
-      <!-- <div class="link"><a href="admin.php">Admin</a></div> -->
+      <div class="link"><a href="admin.php">Admin</a></div>
     </section>
   </div>
   
