@@ -9,7 +9,7 @@ form.onsubmit = (e)=>{
 }
 
 inputField.focus();
-inputField.onkeyup = ()=>{
+inputField.onkeyup = ()=>{1
     if(inputField.value != ""){
         sendBtn.classList.add("active");
     }else{
