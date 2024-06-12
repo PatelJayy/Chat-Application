@@ -35,4 +35,4 @@ Contributions are welcome! Please refer to the [Contribution Guidelines](CONTRIB
 
 ## Contact
 
-For any inquiries or issues, please contact us at chatapplication@example.com.
+For any inquiries or issues, please contact us at japatel017@gmail.com.
