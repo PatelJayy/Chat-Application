@@ -1,7 +1,10 @@
 
 # Chat Application
 
-This is a chat application built using XAMPP.
+This is a chat application built using LAMPP opensource stack.
+
+# About XAMPP
+XAMPP provides us local servers to run and test server side scripting such as PHP.
 
 ## Installation
 
